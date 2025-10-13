@@ -11,7 +11,7 @@
         try {
           await cheerpjInit();
           cheerpjCreateDisplay(800, 600);
-          await cheerpjRunJar("/app/maxent.jar");
+          await cheerpjRunJar("maxent.jar");
           console.log('Jar loaded and running');
         } catch (e) {
           console.error('Error running jar:', e);
@@ -20,3 +20,4 @@
     </script>
   </body>
 </html>
+
